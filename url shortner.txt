@@ -1,0 +1,12 @@
+It uses the pyshorteners library to generate a short URL from a given main URL and the paperclip library to copy the short URL to the clipboard. 
+This function uses the pyshorteners library to generate a short URL from the main_url obtained from the input field. It uses the tinyurl service to shorten the URL. The shortened URL is then stored in the short_url variable.This function uses the paperclip library to copy the contents of the short_url variable to the clipboard.
+
+This is the main part of the code. It creates a Tkinter window with a title and sets its geometry. It also sets the background color of the window to "#4A67C2".
+
+The main_url variable is defined as a StringVar, which is used to store the value entered in the input field for the main URL.
+
+The code then creates a label and an entry field for the main URL. The button "Generate Short URL" is associated with the url_shortner function, which is called when the button is clicked.
+
+Next, a label and an entry field are created for displaying the short URL. The button "Copy the Short URL" is associated with the copy_url function, which is called when the button is clicked.
+
+Finally, the root.mainloop() function is called to start the Tkinter event loop and keep the application running.
